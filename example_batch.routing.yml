@@ -1,0 +1,15 @@
+example_batch.form:
+  path: '/example_batch'
+  defaults:
+    _form: '\Drupal\example_batch\Form\KickOffBatchForm'
+    _title: 'Batch Example'
+  requirements:
+    _role: 'authenticated'
+
+example_batch.multistep_form:
+  path: '/example_multistep'
+  defaults:
+    _form: '\Drupal\example_batch\Form\MultistepBatchForm'
+    _title: 'Multistep Batch Example'
+  requirements:
+    _role: 'authenticated'
